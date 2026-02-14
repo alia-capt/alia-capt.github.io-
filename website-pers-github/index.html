@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pers Independen Indonesia - Media Kebenaran</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Media pers independen yang menyajikan berita terkini, akurat, dan terpercaya untuk Indonesia yang lebih baik.">
+    <meta name="keywords" content="berita indonesia, media pers, berita terkini, politik, ekonomi, teknologi">
+    <meta name="author" content="Pers Independen Indonesia">
+    
+    <!-- Open Graph / Social Media Meta -->
+    <meta property="og:title" content="Pers Independen Indonesia">
+    <meta property="og:description" content="Media pers independen yang menyajikan berita terkini dan terpercaya">
+    <meta property="og:image" content="https://[username].github.io/images/og-image.jpg">
+    <meta property="og:url" content="https://[username].github.io">
+    <meta name="twitter:card" content="summary_large_image">
+    
+    <!-- Fonts & Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+</head>
+<body>
+    <!-- PRELOADER (opsional) -->
+    <div class="preloader">
+        <div class="loader"></div>
+    </div>
+
+    <!-- HEADER -->
+    <header class="header">
+        <div class="breaking-news-ticker">
+            <div class="container">
+                <span class="ticker-label"><i class="fas fa-bolt"></i> TRENDING</span>
+                <div class="ticker-content">
+                    <marquee behavior="scroll" direction="left" onmouseover="this.stop()" onmouseout="this.start()">
+                        <span class="ticker-item">• Pemilu 2024: Update suara terkini masuk 75%</span>
+                        <span class="ticker-item">• Rupiah menguat ke level Rp 15.200 per USD</span>
+                        <span class="ticker-item">• Startup Indonesia raih pendanaan Rp 2 triliun</span>
+                        <span class="ticker-item">• Cuaca ekstrem, BMKG keluarkan peringatan dini</span>
+                    </marquee>
+                </div>
+            </div>
+        </div>
+        
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-brand">
+                    <a href="index.html">
+                        <span class="brand-icon"><i class="fas fa-newspaper"></i></span>
+                        <span class="brand-text">PERS<span class="brand-highlight">.ID</span></span>
+                    </a>
+                </div>
+                
+                <div class="nav-toggle" id="navToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="index.html" class="active"><i class="fas fa-home"></i> HOME</a></li>
+                    <li><a href="#">POLITIK</a></li>
+                    <li><a href="#">EKONOMI</a></li>
+                    <li><a href="#">TEKNOLOGI</a></li>
+                    <li><a href="#">OLAHRAGA</a></li>
+                    <li><a href="#">VIDEO</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="contact.html">KONTAK</a></li>
+                </ul>
+                
+                <div class="nav-search">
+                    <button id="searchBtn"><i class="fas fa-search"></i></button>
+                </div>
+            </div>
+        </nav>
+        
+        <!-- Search Overlay -->
+        <div class="search-overlay" id="searchOverlay">
+            <div class="search-container">
+                <form action="search.html" method="get">
+                    <input type="text" placeholder="Cari berita..." name="q" autocomplete="off">
+                    <button type="submit"><i class="fas fa-search"></i></button>
+                </form>
+                <button class="close-search" id="closeSearch"><i class="fas fa-times"></i></button>
+            </div>
+        </div>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <main>
+        <!-- HERO SECTION -->
+        <section class="hero-section">
+            <div class="container">
+                <div class="hero-grid">
+                    <!-- Hero Main -->
+                    <div class="hero-main">
+                        <div class="hero-card main-news">
+                            <div class="hero-image">
+                                <img src="https://via.placeholder.com/800x450" alt="Berita Utama">
+                                <span class="category-badge">POLITIK</span>
+                            </div>
+                            <div class="hero-content">
+                                <h1><a href="artikel/politik1.html">Krisis Politik Menjelang Pemilu 2024: Koalisi Berubah Arah di Menit Terakhir</a></h1>
+                                <div class="meta">
+                                    <span><i class="far fa-user"></i> Tim Redaksi</span>
+                                    <span><i class="far fa-clock"></i> 2 jam lalu</span>
+                                    <span><i class="far fa-eye"></i> 5.2K views</span>
+                                </div>
+                                <p>Perubahan peta politik terjadi menjelang pemilu. Beberapa partai dilaporkan mengubah koalisi mereka di menit-menit terakhir pendaftaran...</p>
+                                <a href="artikel/politik1.html" class="read-more">Baca Selengkapnya <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Hero Side -->
+                    <div class="hero-side">
+                        <div class="hero-card side-news">
+                            <div class="hero-image small">
+                                <img src="https://via.placeholder.com/150x150" alt="Berita">
+                                <span class="category-badge small">EKONOMI</span>
+                            </div>
+                            <div class="hero-content">
+                                <h3><a href="artikel/ekonomi1.html">Rupiah Menguat ke Level Terkuat dalam 3 Bulan Terakhir</a></h3>
+                                <span class="time"><i class="far fa-clock"></i> 5 jam lalu</span>
+                            </div>
+                        </div>
+                        
+                        <div class="hero-card side-news">
+                            <div class="hero-image small">
+                                <img src="https://via.placeholder.com/150x150" alt="Berita">
+                                <span class="category-badge small">TEKNOLOGI</span>
+                            </div>
+                            <div class="hero-content">
+                                <h3><a href="artikel/teknologi1.html">Startup AI Indonesia Raih Pendanaan Rp 2 Triliun</a></h3>
+                                <span class="time"><i class="far fa-clock"></i> 1 hari lalu</span>
+                            </div>
+                        </div>
+                        
+                        <div class="hero-card side-news">
+                            <div class="hero-image small">
+                                <img src="https://via.placeholder.com/150x150" alt="Berita">
+                                <span class="category-badge small">OLAHRAGA</span>
+                            </div>
+                            <div class="hero-content">
+                                <h3><a href="#">Timnas Indonesia Siap Hadapi Laga Kualifikasi</a></h3>
+                                <span class="time"><i class="far fa-clock"></i> 2 hari lalu</span>
+                            </div>
+                        </div>
+                        
+                        <div class="hero-card side-news">
+                            <div class="hero-image small">
+                                <img src="https://via.placeholder.com/150x150" alt="Berita">
+                                <span class="category-badge small">INTERNASIONAL</span>
+                            </div>
+                            <div class="hero-content">
+                                <h3><a href="#">Konflik Timur Tengah: Gencatan Senjata Mulai Berlaku</a></h3>
+                                <span class="time"><i class="far fa-clock"></i> 3 hari lalu</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- TRENDING SECTION -->
+        <section class="trending-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2><i class="fas fa-fire"></i> TRENDING MINGGU INI</h2>
+                    <a href="#" class="view-all">Lihat Semua <i class="fas fa-chevron-right"></i></a>
+                </div>
+                
+                <div class="trending-grid">
+                    <div class="trending-item">
+                        <span class="trending-number">1</span>
+                        <div class="trending-content">
+                            <h4><a href="#">Hasil Survei Terbaru Pilpres 2024</a></h4>
+                            <span class="views"><i class="far fa-eye"></i> 15.2K views</span>
+                        </div>
+                    </div>
+                    
+                    <div class="trending-item">
+                        <span class="trending-number">2</span>
+                        <div class="trending-content">
+                            <h4><a href="#">Penjelasan Lengkap Soal UU Cipta Kerja</a></h4>
+                            <span class="views"><i class="far fa-eye"></i> 12.8K views</span>
+                        </div>
+                    </div>
+                    
+                    <div class="trending-item">
+                        <span class="trending-number">3</span>
+                        <div class="trending-content">
+                            <h4><a href="#">Kenaikan Harga Pangan: Apa Penyebabnya?</a></h4>
+                            <span class="views"><i class="far fa-eye"></i> 10.5K views</span>
+                        </div>
+                    </div>
+                    
+                    <div class="trending-item">
+                        <span class="trending-number">4</span>
+                        <div class="trending-content">
+                            <h4><a href="#">Cara Daftar CPNS 2024: Panduan Lengkap</a></h4>
+                            <span class="views"><i class="far fa-eye"></i> 9.3K views</span>
+                        </div>
+                    </div>
+                    
+                    <div class="trending-item">
+                        <span class="trending-number">5</span>
+                        <div class="trending-content">
+                            <h4><a href="#">Viral! Aksi Heroik Warga di Tengah Banjir</a></h4>
+                            <span class="views"><i class="far fa-eye"></i> 8.7K views</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- NEWS GRID -->
+        <section class="news-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2><i class="fas fa-clock"></i> BERITA TERKINI</h2>
+                    <div class="category-filter">
+                        <button class="filter-btn active" data-category="all">Semua</button>
+                        <button class="filter-btn" data-category="politik">Politik</button>
+                        <button class="filter-btn" data-category="ekonomi">Ekonomi</button>
+                        <button class="filter-btn" data-category="teknologi">Teknologi</button>
+                        <button class="filter-btn" data-category="olahraga">Olahraga</button>
+                    </div>
+                </div>
+                
+                <div class="news-grid" id="newsGrid">
+                    <!-- News Card 1 -->
+                    <div class="news-card" data-category="politik">
+                        <div class="news-image">
+                            <img src="https://via.placeholder.com/400x250" alt="Berita Politik">
+                            <span class="news-category">POLITIK</span>
+                        </div>
+                        <div class="news-content">
+                            <h3><a href="artikel/politik1.html">Debat Capres: 3 Isu Panas yang Menjadi Sorotan</a></h3>
+                            <div class="news-meta">
+                                <span><i class="far fa-user"></i> Ahmad Fauzi</span>
+                                <span><i class="far fa-clock"></i> 3 jam lalu</span>
+                            </div>
+                            <p>Debat capres semalam diwarnai adu argumen soal ekonomi, hukum, dan pertahanan...</p>
+                            <a href="artikel/politik1.html" class="read-more">Baca <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    
+                    <!-- News Card 2 -->
+                    <div class="news-card" data-category="ekonomi">
+                        <div class="news-image">
+                            <img src="https://via.placeholder.com/400x250" alt="Berita Ekonomi">
+                            <span class="news-category">EKONOMI</span>
+                        </div>
+                        <div class="news-content">
+                            <h3><a href="artikel/ekonomi1.html">Inflasi Terkendali, BI Pertahankan Suku Bunga</a></h3>
+                            <div class="news-meta">
+                                <span><i class="far fa-user"></i> Dewi Sartika</span>
+                                <span><i class="far fa-clock"></i> 5 jam lalu</span>
+                            </div>
+                            <p>Bank Indonesia memutuskan untuk mempertahankan suku bunga acuan di level 5,75%...</p>
+                            <a href="artikel/ekonomi1.html" class="read-more">Baca <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    
+                    <!-- News Card 3 -->
+                    <div class="news-card" data-category="teknologi">
+                        <div class="news-image">
+                            <img src="https://via.placeholder.com/400x250" alt="Berita Teknologi">
+                            <span class="news-category">TEKNOLOGI</span>
+                        </div>
+                        <div class="news-content">
+                            <h3><a href="artikel/teknologi1.html">5G Semakin Luas, Ini Daftar Kota yang Kebagian</a></h3>
+                            <div class="news-meta">
+                                <span><i class="far fa-user"></i> Budi Setiawan</span>
+                                <span><i class="far fa-clock"></i> 7 jam lalu</span>
+                            </div>
+                            <p>Provider seluler terus memperluas jangkauan 5G ke kota-kota baru di Indonesia...</p>
+                            <a href="artikel/teknologi1.html" class="read-more">Baca <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    
+                    <!-- News Card 4 -->
+                    <div class="news-card" data-category="olahraga">
+                        <div class="news-image">
+                            <img src="https://via.placeholder.com/400x250" alt="Berita Olahraga">
+                            <span class="news-category">OLAHRAGA</span>
+                        </div>
+                        <div class="news-content">
+                            <h3><a href="#">Liga 1: Puncak Klasemen Makin Ketat</a></h3>
+                            <div class="news-meta">
+                                <span><i class="far fa-user"></i> Rudi Hermawan</span>
+                                <span><i class="far fa-clock"></i> 9 jam lalu</span>
+                            </div>
+                            <p>Persaingan di puncak klasemen Liga 1 semakin menarik setelah pekan ke-25...</p>
+                            <a href="#" class="read-more">Baca <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    
+                    <!-- News Card 5 -->
+                    <div class="news-card" data-category="politik">
+                        <div class="news-image">
+                            <img src="https://via.placeholder.com/400x250" alt="Berita Politik">
+                            <span class="news-category">POLITIK</span>
+                        </div>
+                        <div class="news-content">
+                            <h3><a href="#">Parlemen Sahkan RUU Kontroversial</a></h3>
+                            <div class="news-meta">
+                                <span><i class="far fa-user"></i> Siti Aminah</span>
+                                <span><i class="far fa-clock"></i> 12 jam lalu</span>
+                            </div>
+                            <p>DPR mengesahkan RUU baru yang menuai pro dan kontra di masyarakat...</p>
+                            <a href="#" class="read-more">Baca <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    
+                    <!-- News Card 6 -->
+                    <div class="news-card" data-category="ekonomi">
+                        <div class="news-image">
+                            <img src="https://via.placeholder.com/400x250" alt="Berita Ekonomi">
+                            <span class="news-category">EKONOMI</span>
+                        </div>
+                        <div class="news-content">
+                            <h3><a href="#">Harga Emas Antam Naik Lagi</a></h3>
+                            <div class="news-meta">
+                                <span><i class="far fa-user"></i> Agus Salim</span>
+                                <span><i class="far fa-clock"></i> 14 jam lalu</span>
+                            </div>
+                            <p>Harga emas batangan Antam kembali mencatatkan rekor tertinggi baru...</p>
+                            <a href="#" class="read-more">Baca <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="load-more">
+                    <button id="loadMore" class="btn-load-more">Muat Lebih Banyak <i class="fas fa-sync-alt"></i></button>
+                </div>
+            </div>
+        </section>
+
+        <!-- NEWSLETTER SECTION -->
+        <section class="newsletter-section">
+            <div class="container">
+                <div class="newsletter-box">
+                    <div class="newsletter-content">
+                        <h3>Dapatkan Berita Terkini di Emailmu</h3>
+                        <p>Subscribe newsletter kami dan dapatkan update berita setiap hari</p>
+                    </div>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Masukkan email kamu" required>
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <h4><i class="fas fa-newspaper"></i> PERS.ID</h4>
+                    <p>Media pers independen yang berkomitmen pada kebenaran, akurasi, dan keadilan. Berdiri sejak 2024 untuk Indonesia yang lebih baik.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>KATEGORI</h4>
+                    <ul>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Politik</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Ekonomi</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Teknologi</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Olahraga</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Hiburan</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>INFORMASI</h4>
+                    <ul>
+                        <li><a href="about.html"><i class="fas fa-chevron-right"></i> Tentang Kami</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Redaksi</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Pedoman Media</a></li>
+                        <li><a href="contact.html"><i class="fas fa-chevron-right"></i> Kontak</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Karir</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-contact">
+                    <h4>KONTAK</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> Jl. Merdeka No. 45, Jakarta Pusat</p>
+                    <p><i class="fas fa-phone-alt"></i> +62 21 1234 5678</p>
+                    <p><i class="fas fa-envelope"></i> redaksi@pers.id</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Pers Independen Indonesia. Hak Cipta Dilindungi.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Kebijakan Privasi</a>
+                    <a href="#">Syarat & Ketentuan</a>
+                    <a href="#">Disclaimer</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- BACK TO TOP BUTTON -->
+    <button id="backToTop" class="back-to-top"><i class="fas fa-arrow-up"></i></button>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+</html>
